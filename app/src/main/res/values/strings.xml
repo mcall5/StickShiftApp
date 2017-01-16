@@ -36,10 +36,10 @@
     <string name="finish_answer">Now use the menu to see a list of all the questions or find additional resources.</string>
     <string name="finish_question">You finished!</string>
     <string name="resources">Resources</string>
-    <string name="zip_hint">City or Zip Code</string>
+    <string name="zip_hint">Enter City or Zip Code</string>
     <string name="search">search google maps</string>
-    <string name="search_instructions">Enter your location and hit search to pull up a map search of nearby driving schools:</string>
-    <string name="youtube_button">Click here\nto browse youtube instructional videos</string>
+    <string name="search_instructions">Search for nearby driving schools:</string>
+    <string name="youtube_button">Watch instructional videos:</string>
     <string name="enter_location">Enter a location to search</string>
     <string name="map_error">Could not connect to Google Maps</string>
     <string name="video_error">Could not connect to Youtube</string>

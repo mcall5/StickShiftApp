@@ -3,12 +3,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="8dp"
     android:orientation="vertical"
     tools:context="com.example.android.stickshiftdraft.MainActivity">
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_weight="4"
+        android:layout_weight="1"
         android:layout_height="0dp"
         android:background="#e8eaf6"
         android:layout_margin="8dp">
@@ -17,15 +16,14 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:src="@drawable/tach"
-            android:scaleType="centerInside"
-            android:layout_margin="4dp" />
+            android:scaleType="centerInside" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/start"
             android:textColor="@android:color/holo_red_dark"
-            android:textSize="64dp"
+            android:textSize="64sp"
             android:textAllCaps="true"
             android:background="@android:color/transparent"
             android:layout_alignParentBottom="true"
@@ -33,15 +31,19 @@
             android:onClick="mainFacts" />
 
     </RelativeLayout>
-    <Button
+
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:layout_alignParentLeft="true"
-        android:text="@string/menu"
-        android:textAllCaps="true"
-        android:layout_margin="4dp"
-        android:onClick="mainMenu"/>
+        android:layout_height="56dp"
+        android:background="@color/colorPrimary">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:layout_centerInParent="true"
+            android:text="@string/menu"
+            android:onClick="mainMenu"/>
+    </RelativeLayout>
 
 </LinearLayout>
 

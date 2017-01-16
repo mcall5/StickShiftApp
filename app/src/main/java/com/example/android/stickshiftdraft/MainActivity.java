@@ -256,7 +256,7 @@ public class MainActivity extends AppCompatActivity {
     public void mapGo(View v) {
         String userZip = zipInput.getText().toString();
         if (userZip.length() == 0) {
-            Toast noInput = Toast.makeText(getApplicationContext(), R.string.enter_location, Toast.LENGTH_SHORT);
+            Toast noInput = Toast.makeText(getApplicationContext(), R.string.enter_location, Toast.LENGTH_LONG);
             noInput.show();
         }
         else {
@@ -266,7 +266,7 @@ public class MainActivity extends AppCompatActivity {
             if (intent.resolveActivity(getPackageManager()) != null) {
                 startActivity(intent);
             } else {
-                Toast orderMessage = Toast.makeText(getApplicationContext(), R.string.map_error, Toast.LENGTH_SHORT);
+                Toast orderMessage = Toast.makeText(getApplicationContext(), R.string.map_error, Toast.LENGTH_LONG);
                 orderMessage.show();
             }
        }
@@ -280,7 +280,7 @@ public class MainActivity extends AppCompatActivity {
         if (intent.resolveActivity(getPackageManager()) != null) {
             startActivity(intent);
         } else {
-            Toast orderMessage = Toast.makeText(getApplicationContext(), R.string.video_error, Toast.LENGTH_SHORT);
+            Toast orderMessage = Toast.makeText(getApplicationContext(), R.string.video_error, Toast.LENGTH_LONG);
             orderMessage.show();
         }
     }
