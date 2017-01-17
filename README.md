@@ -43,41 +43,40 @@ The “back” button will go to the previous question and clear the answer scre
 
 ![stickshiftstart](https://cloud.githubusercontent.com/assets/25094066/22002409/c9c33ac8-dc00-11e6-8411-90a64a04120f.png)
 
-Description:
+Description:  Allows the user to start a flashcard session or go to the settings menu.
 
-Progress:
+Progress: Working buttons.
 
-Working on:
+Working on: Layout appearance.
 
-####Menu Screen
+####Main Menu Screen
 
 ![stickshiftmenu](https://cloud.githubusercontent.com/assets/25094066/22002407/c9b257bc-dc00-11e6-8168-c0630ea06d57.png)
 
-Description:
+Description:  Allows the user to go into either the question list or resources menus.
 
-Progress:
+Progress: Simple appearance with working buttons.
 
-Working on:
 
 ####Question List Screen
 
 ![stickshiftquestionlist](https://cloud.githubusercontent.com/assets/25094066/22002406/c9b2006e-dc00-11e6-8cf6-e3b50f555dda.png)
 
-Description:
+Description:  Allows the user to view all of the flashcard questions and select a specific question to go to on the flashcard screen
 
-Progress:
+Progress: Buttons take the user to the flashcard screen and display the question the user selected
 
-Working on:
+Working on: Redesigning the layout to make the text a clickable button.
 
 ####Resource Screen
 
 ![stickshiftresources](https://cloud.githubusercontent.com/assets/25094066/22002410/c9c56b40-dc00-11e6-8386-b895e602519f.png)
 
-Description:
+Description:  Allows the user to either search for driving schools on Google maps or browse instructional videos on Youtube.
 
-Progress:
+Progress:  The map search includes an editText View that will accept up to 35 characters.  If the search button is clicked without a location a toast will pop up to prompt the user to specify a location.  The search button is able to connect to Google maps or display an error toast message if the connection fails.  The video search button is able to connect to Youtube or display an error toast message if the connection fails.
 
-Working on:
+Working on:  Hooking up GPS to the map search so the user can search from their location without needing to type it in.
 
 ####Driving Schools Search Map
 
