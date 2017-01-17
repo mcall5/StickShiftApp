@@ -13,7 +13,8 @@ An app to teach the basics of stick shift driving. The project features a flashc
 
 ####Question & Answer Display
 
-![stickshiftflashcard 2](https://cloud.githubusercontent.com/assets/25094066/22002404/c9afc7e0-dc00-11e6-9ff3-ce17ad943bc3.png)
+![stickshiftflashq a 2 _li](https://cloud.githubusercontent.com/assets/25094066/22004137/2a26eda8-dc0e-11e6-861a-c9ffbfa5400e.jpg)
+
 
 Description: Displays one question at a time and adds the answer with optional details after the user clicks the screen.
 
@@ -21,7 +22,7 @@ Progress: Text displays each question and answer correctly and in succession
 
 ####Navigation Buttons
 
-![stickshiftflashcard 3](https://cloud.githubusercontent.com/assets/25094066/22002402/c9aefd42-dc00-11e6-922e-181e354ef1a7.png)
+![stickshiftflashcard_li](https://cloud.githubusercontent.com/assets/25094066/22004133/1ef80192-dc0e-11e6-9542-50b48b2bc516.jpg)
 
 Description: Buttons allow the user to click through the flashcards in order, go back to previous questions and read through additional answer details for the current question.
 
