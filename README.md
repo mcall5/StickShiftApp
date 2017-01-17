@@ -82,19 +82,17 @@ Working on:  Hooking up GPS to the map search so the user can search from their 
 
 ![stickshiftmap](https://cloud.githubusercontent.com/assets/25094066/22002405/c9b1f39e-dc00-11e6-90dc-c77f64e89ccf.png)
 
-Description:
+Description:  The user can look at nearby driving schools on Google maps.
 
-Progress:
-
-Working on:
+Progress:  Google maps is able to load from the stick shift app's resource page and automatically bring up a search for driving schools near the location the user specified on the resource page.
 
 ####Instructional Videos
 
 ![stickshiftvideo](https://cloud.githubusercontent.com/assets/25094066/22002408/c9c2bada-dc00-11e6-8214-2fd524852e19.png)
 
-Description:
+Description:  The user can look through stick shift instructional videos on Youtube.
 
-Progress:
+Progress:  Youtube is able to load from the stick shift app's resource page and automatically bring up a search for "stick shift how to"
 
-Working on:
+Working on: Having Youtube automatically play the top video on the result list.
 
