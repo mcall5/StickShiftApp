@@ -22,7 +22,7 @@ Progress: Text displays each question and answer correctly and in succession
 
 ####Navigation Buttons
 
-![stickshiftflashcard_li](https://cloud.githubusercontent.com/assets/25094066/22004133/1ef80192-dc0e-11e6-9542-50b48b2bc516.jpg)
+![stickshiftflashcard_li 2](https://cloud.githubusercontent.com/assets/25094066/22011529/602a9158-dc44-11e6-8dac-72d41e6b4b95.jpg)
 
 Description: Buttons allow the user to click through the flashcards in order, go back to previous questions and read through additional answer details for the current question.
 
