@@ -1,36 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:background="@color/colorPrimaryDark">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    tools:context="com.example.android.stickshiftdraft.MenuActivity">
 
     <Button
+        android:id="@+id/question_list_button"
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:layout_margin="48dp"
         android:layout_weight="1"
         android:text="@string/question_list"
-        android:textAllCaps="true"
-        android:layout_margin="48dp"
-        android:onClick="questionList"/>
+        android:textAllCaps="true" />
 
     <Button
+        android:id="@+id/resources_button"
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:layout_margin="48dp"
         android:layout_weight="1"
         android:text="@string/resources"
-        android:textAllCaps="true"
-        android:layout_margin="48dp"
-        android:onClick="resourcePage"/>
+        android:textAllCaps="true" />
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="56dp"
         android:background="@color/colorPrimary">
+
         <Button
+            android:id="@+id/menu_start_button"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_margin="4dp"
             android:layout_centerInParent="true"
-            android:text="@string/start"
-            android:onClick="mainFacts"/>
+            android:layout_margin="4dp"
+            android:text="@string/start" />
     </RelativeLayout>
 
 </LinearLayout>

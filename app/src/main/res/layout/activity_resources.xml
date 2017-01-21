@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_resources"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.stickshiftdraft.ResourcesActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_margin="8dp"
+            android:text="@string/search_instructions"
+            android:textColor="@android:color/white"
+            android:background="@color/colorPrimaryDark" />
+
+        <EditText
+            android:id="@+id/zip_Edit_Text"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:hint="@string/zip_hint"
+            android:paddingRight="8dp"
+            android:paddingLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:maxLength="35"
+            android:inputType="textCapWords"/>
+
+        <Button
+            android:id="@+id/map_button"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:text="@string/search" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_margin="8dp"
+            android:text="@string/youtube_button"
+            android:textColor="@android:color/white"
+            android:background="@color/colorPrimaryDark" />
+
+        <Button
+            android:id="@+id/video_button"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:textAlignment="center"
+            android:gravity="bottom"
+            android:padding="16dp"
+            android:layout_margin="16dp"
+            android:background="@drawable/youtube" />
+
+</LinearLayout>

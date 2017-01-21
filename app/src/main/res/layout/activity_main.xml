@@ -19,6 +19,7 @@
             android:scaleType="centerInside" />
 
         <Button
+            android:id="@+id/start_start_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/start"
@@ -27,8 +28,7 @@
             android:textAllCaps="true"
             android:background="@android:color/transparent"
             android:layout_alignParentBottom="true"
-            android:layout_centerHorizontal="true"
-            android:onClick="mainFacts" />
+            android:layout_centerHorizontal="true" />
 
     </RelativeLayout>
 
@@ -37,12 +37,12 @@
         android:layout_height="56dp"
         android:background="@color/colorPrimary">
         <Button
+            android:id="@+id/start_menu_button"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_margin="4dp"
             android:layout_centerInParent="true"
-            android:text="@string/menu"
-            android:onClick="mainMenu"/>
+            android:text="@string/menu" />
     </RelativeLayout>
 
 </LinearLayout>

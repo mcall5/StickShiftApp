@@ -1,5 +1,10 @@
 <resources>
     <string name="app_name">Stick Shift Draft</string>
+    <string name="app_label">Stick Shift App</string>
+    <string name="flashcard_label">Study</string>
+    <string name="menu_label">Menu</string>
+    <string name="question_list_label">Question List</string>
+    <string name="resources_label">Resources</string>
     <string name="start">start</string>
     <string name="menu">menu</string>
     <string name="go">go</string>
